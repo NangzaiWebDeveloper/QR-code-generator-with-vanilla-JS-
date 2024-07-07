@@ -4,7 +4,6 @@ const qrbutton = document.getElementById('qr-button');
 
 qrbutton.addEventListener('click', () => {
     const inputValue = qrinput.value;
-    console.log(inputValue);
 
     if (!inputValue) {
         alert('Please enter valid URL')
